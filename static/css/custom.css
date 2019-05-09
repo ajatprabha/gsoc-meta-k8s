@@ -6,6 +6,10 @@
     text-align: left;
 }
 
+.text-align-left {
+    text-align: left;
+}
+
 td {
     padding: 0.5rem;
 }

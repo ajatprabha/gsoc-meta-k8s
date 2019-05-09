@@ -57,15 +57,21 @@
           <li><a href="https://github.com/kubernetes/enhancements/pull/814">KEP for Plugin Mechanism</a></li>
         </ul>
       </div>
-      <div class="col col-4 item">
-        <figure><i class="fa fa-exclamation fa-5x"></i></figure>
-        <h3>Issues</h3>
-        <p>Updating Soon</p>
-      </div>
-      <div class="col col-4 item">
-        <figure><i class="fa fa-code-fork fa-5x"></i></figure>
-        <h3>Pull Requests</h3>
-        <p>Updating Soon</p>
+      <div class="col col-12 item">
+        <figure><i class="fa fa-github fa-5x"></i></figure>
+        <h3>Issues and Pull Requests</h3>
+        <div class="text-align-left">
+          {{ range .Site.Data.contrib }}
+          <strong>Total: </strong>{{ .search.repositoryCount }}
+          <ul>
+            {{ range .search.edges }}
+            <li><strong>{{ .node.__typename }}</strong>: <a
+                href="{{ .node.url }}">kubernetes/{{ .node.repository.name }}#{{ .node.number }}</a> - {{ .node.title }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
