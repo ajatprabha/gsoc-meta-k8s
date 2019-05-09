@@ -1,3 +1,15 @@
 #footer {
     margin: 104px 0 18px;
 }
+
+.info-table {
+    text-align: left;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
