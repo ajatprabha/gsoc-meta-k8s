@@ -1,0 +1,25 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "GSoC Meta K8s"
+theme = "kube"
+description = "Project tracker for my GSoC project - Add Plugin Mechanism to the Dashboard - for the Kubernetes organization (CNCF)."
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "Ajat Prabha"
+  github = "ajatprabha"
+  twitter = "ajatprabha"
+  email = "ajat.prabha.leo@gmail.com"
+
+[[menu.main]]
+    name = "Weekly"
+    weight = -100
+    url = "/weekly/"
+[[menu.main]]
+    name = "Notes"
+    weight = -100
+    url = "/notes/"
+[[menu.main]]
+    name = "Evaluations"
+    weight = -100
+    url = "/evals/"
