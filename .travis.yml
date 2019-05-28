@@ -12,6 +12,7 @@ install:
 
 # Build the website
 script:
+  - make update-stats
   - hugo
 
 # Deploy to GitHub pages
