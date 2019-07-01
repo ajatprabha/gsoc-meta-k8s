@@ -12,14 +12,18 @@ Paginate = 4
   email = "ajat.prabha.leo@gmail.com"
 
 [[menu.main]]
+    name = "Home"
+    weight = 1
+    url = ".."
+[[menu.main]]
+    name = "Evaluations"
+    weight = 2
+    url = "/evals/"
+[[menu.main]]
     name = "Weekly"
-    weight = -100
+    weight = 3
     url = "/weekly/"
 [[menu.main]]
     name = "Notes"
-    weight = -100
+    weight = 4
     url = "/notes/"
-[[menu.main]]
-    name = "Evaluations"
-    weight = -100
-    url = "/evals/"
