@@ -76,6 +76,24 @@
           {{ end }}
         </div>
       </div>
+      <div class="col col-12 item">
+        <figure><i class="fa fa-terminal fa-5x"></i></figure>
+        <h3>TODOs | Improvement scope</h3>
+        <div class="text-align-left">
+          <ol>
+            <li>Release plugin builder pipeline for developers to compile plugins with Angular CLI.</li>
+            <li>[Optional] Release common components from <code>kubernetes/dashboard</code> as an NPM package.</li>
+            <li>Add ability to inject a plugin into certain existing places in the dashboard:
+              <ul>
+                <li>UI Example: Some system uses "Cluster" CRD to describe overall cluster.
+                  We should be able to write a plugin that would allow to see this detail view in a better way than
+                  raw CRD object definition + Add some options to trigger actions in an external system.</li>
+                  <li>Navbar Example: Another use case would be adding new entry to navbar with custom support for some CRD.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
   </div>
 </div>
