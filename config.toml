@@ -19,11 +19,3 @@ Paginate = 4
     name = "Evaluations"
     weight = 2
     url = "/evals/"
-[[menu.main]]
-    name = "Weekly"
-    weight = 3
-    url = "/weekly/"
-[[menu.main]]
-    name = "Notes"
-    weight = 4
-    url = "/notes/"
